@@ -1,1 +1,1 @@
-Chapter 05: Add the form for Todo
+Chapter 06: Add card for Todo
