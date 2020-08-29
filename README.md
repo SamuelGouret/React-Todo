@@ -1,1 +1,1 @@
-Chapter 01 : create the boilerplate with create-react-app
+Chapter 02 : Clean the project and make some updates
