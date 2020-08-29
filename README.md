@@ -1,1 +1,1 @@
-Chapter 00 : installation
+Chapter 01 : create the boilerplate with create-react-app
