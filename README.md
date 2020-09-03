@@ -1,1 +1,1 @@
-Chapter 08: React Hooks (State) to get the data
+Chapter 09: Understanding how to link data between components

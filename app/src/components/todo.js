@@ -1,14 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../style/todo.css';
 
-const initialFormData = Object.freeze({
-    title: "",
-    description: ""
-});
 
-function Todo() {
-
-    const [formData, updateFormData] = useState(initialFormData);
+function Todo({formData, updateFormData}) {
 
     const handleChange = (e) => {
         updateFormData({
