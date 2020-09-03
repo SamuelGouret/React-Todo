@@ -1,1 +1,1 @@
-Chapter 07: Get the content of the form (onChange event)
+Chapter 08: React Hooks (State) to get the data
