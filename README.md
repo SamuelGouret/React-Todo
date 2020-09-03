@@ -1,1 +1,1 @@
-Chapter 06: Add card for Todo
+Chapter 07: Get the content of the form (onChange event)
