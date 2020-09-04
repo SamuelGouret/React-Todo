@@ -12,11 +12,13 @@ function App() {
 
   const [formData, updateFormData] = useState(initialFormData);
 
+  const [todos, addTodos] = useState([]);
+
   return (
     <div className="App">
-      <Header formData={formData}/>
-      <Todo formData={formData} updateFormData={updateFormData}/>
-      <List />
+      <Header/>
+      <Todo todos={todos} addTodos={addTodos} formData={formData} updateFormData={updateFormData}/>
+      <List todos={todos}/>
     </div>
   );
 }

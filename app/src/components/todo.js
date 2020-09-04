@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/todo.css';
 
 
-function Todo({formData, updateFormData}) {
+function Todo({todos, addTodos, formData, updateFormData}) {
 
     const handleChange = (e) => {
         updateFormData({
@@ -15,8 +15,13 @@ function Todo({formData, updateFormData}) {
     
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(formData);
+        
+        addTodos([
+            ...todos,
+            formData
+        ])
         // ... submit to API or something
+        console.log(todos);
     };
 
     return (

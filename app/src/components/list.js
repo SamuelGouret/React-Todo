@@ -23,12 +23,12 @@ const useStyles = makeStyles({
   },
 });
 
-export default function List() {
+export default function List(todos) {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
-  
 
   return (
+      <div>
     <Card className={classes.root}>
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
@@ -50,5 +50,8 @@ export default function List() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-  );
+
+
+    </div>
+  )
 }

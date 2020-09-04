@@ -1,1 +1,1 @@
-Chapter 09: Understanding how to link data between components
+Chapter 10: Add Todo to the list of Todos
