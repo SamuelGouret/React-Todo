@@ -1,1 +1,1 @@
-Chapter 10: Add Todo to the list of Todos
+Chapter 11: Create a specific component (based on Card) for each Todo
