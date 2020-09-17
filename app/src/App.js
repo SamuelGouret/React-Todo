@@ -7,6 +7,7 @@ const initialFormData = Object.freeze({
   title: "",
   description: "",
   done: false,
+  id : Math.ceil(Math.random() * 10000)
 });
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     <div className="App">
       <Header/>
       <Todo todos={todos} addTodos={addTodos} formData={formData} updateFormData={updateFormData}/>
-      <List todos={todos}/>
+      <List todos={todos} setTodos={addTodos}/>
     </div>
   );
 }

@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   });
 
   
-export default function CardTodo({todo}) {
+export default function CardTodo({todo, todos, setTodos}) {
 
     const classes = useStyles();
     const bull = <span className={classes.bullet}>•</span>;
@@ -42,8 +42,8 @@ export default function CardTodo({todo}) {
         e.preventDefault()
         
         // ... submit to API or something
-        console.log("Delete");
-        
+        setTodos(todos.filter((el) => el.id !== todo.id));
+
     };
 
     return(

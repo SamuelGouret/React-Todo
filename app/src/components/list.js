@@ -3,7 +3,7 @@ import React from 'react';
 import CardTodo from "./card";
 
 
-export default function List({todos}) {
+export default function List({todos, setTodos}) {
 
     console.log(todos);
     if (todos.length > 0) 
@@ -14,7 +14,7 @@ export default function List({todos}) {
           <h2>Todos</h2>
           <ul>
           {todos.map((value, index) => {
-            return <CardTodo key={index} todo={value}/> //<li key={index}>{value.title}</li>
+            return <CardTodo key={index} todo={value} todos={todos} setTodos={setTodos}/> //<li key={index}>{value.title}</li>
            })}
         </ul>
           

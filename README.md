@@ -1,1 +1,1 @@
-Chapter 15 : Add the Done flag on Todo
+Chapter 16 : Delete a todo

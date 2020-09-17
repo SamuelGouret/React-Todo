@@ -18,7 +18,7 @@ function Todo({todos, addTodos, formData, updateFormData}) {
         
         addTodos([
             ...todos,
-            formData
+            {title:formData.title, description: formData.description, id: Math.ceil(Math.random() * 10000)}
         ])
         // ... submit to API or something
 
