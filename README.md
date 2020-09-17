@@ -1,1 +1,1 @@
-Chapter 13 : Display Todo as Card
+Chapter 14 : Done and delete buttons

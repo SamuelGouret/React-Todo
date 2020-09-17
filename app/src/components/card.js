@@ -30,6 +30,22 @@ export default function CardTodo({todo}) {
     const classes = useStyles();
     const bull = <span className={classes.bullet}>•</span>;
   
+    const handleDone = (e) => {
+        e.preventDefault()
+        
+        // ... submit to API or something
+        console.log("Done");
+
+    };
+
+    const handleDelete = (e) => {
+        e.preventDefault()
+        
+        // ... submit to API or something
+        console.log("Delete");
+        
+    };
+
     return(
 
         <div>
@@ -43,7 +59,8 @@ export default function CardTodo({todo}) {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Learn More</Button>
+            <Button size="small" onClick={handleDone}>Done</Button>
+            <Button size="small" onClick={handleDelete}>Delete</Button>
           </CardActions>
         </Card>
     
