@@ -1,1 +1,1 @@
-Chapter 11: Create a specific component (based on Card) for each Todo
+Chapter 12 : Create as many CardTodo as there are todos

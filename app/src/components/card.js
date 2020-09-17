@@ -25,11 +25,13 @@ const useStyles = makeStyles({
   });
 
   
-export default function CardTodo() {
+export default function CardTodo({todo}) {
 
     const classes = useStyles();
     const bull = <span className={classes.bullet}>•</span>;
   
+    console.log("CardTodo: " + todo);
+
     return(
 
         <div>

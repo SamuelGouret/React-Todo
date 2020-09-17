@@ -21,7 +21,7 @@ function Todo({todos, addTodos, formData, updateFormData}) {
             formData
         ])
         // ... submit to API or something
-        console.log(todos);
+
     };
 
     return (
