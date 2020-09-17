@@ -34,7 +34,15 @@ export default function CardTodo({todo, todos, setTodos}) {
         e.preventDefault()
         
         // ... submit to API or something
-        console.log("Done");
+        setTodos(todos.map((item) => {
+            if (item.id === todo.id) {
+                return { 
+                    ...item, done : !item.done
+                }
+            }
+
+            return item;
+        }));
 
     };
 

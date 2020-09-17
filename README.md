@@ -1,1 +1,1 @@
-Chapter 16 : Delete a todo
+Chapter 17: Get a todo completed
