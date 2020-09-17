@@ -30,26 +30,16 @@ export default function CardTodo({todo}) {
     const classes = useStyles();
     const bull = <span className={classes.bullet}>•</span>;
   
-    console.log("CardTodo: " + todo);
-
     return(
 
         <div>
         <Card className={classes.root}>
           <CardContent>
-            <Typography className={classes.title} color="textSecondary" gutterBottom>
-              Word of the Day
-            </Typography>
             <Typography variant="h5" component="h2">
-              be{bull}nev{bull}o{bull}lent
-            </Typography>
-            <Typography className={classes.pos} color="textSecondary">
-              adjective
+              {todo.title}
             </Typography>
             <Typography variant="body2" component="p">
-              well meaning and kindly.
-              <br />
-              {'"a benevolent smile"'}
+              {todo.description}
             </Typography>
           </CardContent>
           <CardActions>

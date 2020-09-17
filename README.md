@@ -1,1 +1,1 @@
-Chapter 12 : Create as many CardTodo as there are todos
+Chapter 13 : Display Todo as Card
