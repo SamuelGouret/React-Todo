@@ -5,7 +5,8 @@ import List from './components/list';
 
 const initialFormData = Object.freeze({
   title: "",
-  description: ""
+  description: "",
+  done: false,
 });
 
 function App() {

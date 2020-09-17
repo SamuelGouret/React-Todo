@@ -1,1 +1,1 @@
-Chapter 14 : Done and delete buttons
+Chapter 15 : Add the Done flag on Todo
