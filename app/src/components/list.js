@@ -14,7 +14,7 @@ export default function List({todos, setTodos}) {
           <h2>Todos</h2>
           <ul>
           {todos.map((value, index) => {
-            return <CardTodo key={index} todo={value} todos={todos} setTodos={setTodos}/> //<li key={index}>{value.title}</li>
+            return <CardTodo key={index} todo={value} todos={todos} setTodos={setTodos}/>
            })}
         </ul>
           
